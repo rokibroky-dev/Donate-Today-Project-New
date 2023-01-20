@@ -1,0 +1,339 @@
+* { box-sizing: border-box; }
+
+body, h1, h2, h3, h4, h5, h6, p, a, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 15px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 1.5;
+}
+
+.hero-section {
+    height: 550px;
+    background-image: url("../assets/images/donation0.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(360deg, #06283D 0%, rgba(18, 18, 18, 0) 100%);
+    padding: 0 25%;
+}
+
+.hero-heading {
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #E8E8E8;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+.donate-now-btn {
+    width: 140px;
+    background: none;
+    border: none;
+}
+
+.donate-now-btn a {
+    height: 45px;
+    background: #1363DF;
+    display: block;
+    padding-top: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+
+
+
+.donate-today-section {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.donate-today-container {
+    padding: 30px 20%;
+    text-align: center;
+}
+
+.donate-today-description {
+    padding: 15px 100px
+}
+
+
+.donate-amount {
+    display: flex;
+    justify-content: center;
+}
+
+.amount {
+    height: 90px;
+    width: 100px;
+    margin: 10px;
+    background: #FAFAFA;
+    color: #707070;
+    border-radius: 4px;
+    padding-top: 33px;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.tk200 {
+    background: rgba(71, 181, 255, 0.35);;
+    border: 2px solid #1363DF;
+}
+
+.donate-form-box {
+    padding: 40px 0;
+}
+
+.donate-form-box input {
+    height: 30px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #DADADA;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+}
+
+.donate-form-box input:focus {
+    outline-width: 0;
+}
+
+
+
+
+.our-donate-plan-section {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.container {
+    padding: 30px 10%;
+}
+
+.our-donate-plan-content {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.donate-plans {
+    display: flex;
+    padding: 30px 0;
+}
+
+.donate-plans h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0 10px 0 ;
+
+}
+
+.donate-plan {
+    height: 280px;
+    width: 280px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 50px 20px
+}
+
+.one {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.two {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.three {
+    background: #FFF4D6;
+}
+
+.donate-plans h4 {
+    font-weight: 600;
+}
+
+.donate-plans p {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+
+
+
+.how-to-contribute-section {
+    height: 450px;
+    padding-top: 30px;
+}
+
+.how-to-contribute-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.how-to-contribute-img {
+    padding-left: 20px;
+}
+
+.how-to-contribute-img img {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.how-to-contribute-heading {
+    padding: 15px 0;
+}
+
+
+.how-to-contribute-btn {
+    margin-top: 20px;
+    width: 170px;
+    background: none;
+    border: none;
+}
+
+.how-to-contribute-btn a {
+    height: 45px;
+    background: #1363DF;
+    display: block;
+    padding-top: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+
+
+
+.newsletter-section {
+    padding: 30px 0px;
+    height: 450px;
+}
+
+.newsletter-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.newsletter-container p {
+    padding: 0 100px;
+}
+
+.newsletter-form-box {
+    margin: 20px 0;
+    height: 150px;
+    width: 100%;
+    background: rgba(79, 157, 166, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-form {
+    width: 50%;
+}
+
+.newsletter-form .newsletter-form-email {
+    height: 40px;
+    width: 70%;
+    padding: 0 10px;
+    font-family: "Montserrat";
+    border: 2px solid #1363DF;
+    border-radius: 3px
+}
+
+.newsletter-form .newsletter-form-submit-btn {
+    height: 40px;
+    width: 25%;
+    background: #1363DF;
+    border: 2px solid #1363DF;
+    border-radius: 3px;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+
+
+.footer-section {
+    height: 180px;
+    background: #06283D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.footer-container .footer-heading {
+    color: #1363DF;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.footer-container p {
+    color: #b8b8b8;
+}
+
+.extra-gallery-section {
+    padding-top: 60px;
+}
+
+.extra-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-heading {
+    text-align: center;
+}
+
+.gallery-img {
+    width: 31%;
+    margin: 2px;
+}
